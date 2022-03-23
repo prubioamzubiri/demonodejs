@@ -1,0 +1,9 @@
+    1  ng build
+    2  cd nombreProyecto/
+    3  ng build
+    4  history help
+    5  history -help
+    6  history --help
+    7  ng generate component nombre_componente
+    8  history
+    9  history > cosas1.txt

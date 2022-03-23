@@ -1,0 +1,15 @@
+    1  sudo apt update
+    2  sudo apt install npm
+    3  sudo apt install nodejs
+    4  nodejs --version
+    5  history > instalación.txt
+    6  npm install -y @angular/cli
+    7  npm install --global typescript
+    8  history > instalación.txt
+    9  npm install -g npm
+   
+   27  npm link @angular/cli
+   28  ng
+   29  ng version
+   30  ng new nombreProyecto
+   31  history > instalación.txt
