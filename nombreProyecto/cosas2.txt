@@ -1,0 +1,23 @@
+    1  npm link @angular/cli
+    2  ng version
+    3  sudo apt install nodejs
+    4  npm install -y @angular/cli
+    5  sudo apt upgrade npm
+    6  sudo apt up update
+    7  sudo aptpt update
+    8  sudo apt update
+    9  sudo apt upgrade npm
+   10  npm -v
+   11  sudo apt upgrade npm
+   12  npm install -y @angular/cli
+   13  npm install -g typescript
+   14  npm install -g npm
+   15  npm link @angular/cli
+   16  ng version
+   17  ng serve
+   18  cd nombreProyecto/
+   19  ng serve
+   20  npm uninstall @angular-devkit/build-angular
+   21  npm install --save-dev @angular-devkit/build-angular
+   22  ng serve
+   23  history > cosas2.txt

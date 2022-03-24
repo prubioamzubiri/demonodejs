@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TodoService } from '../servicios/nombre-servicio.service';
 
 @Component({
   selector: 'app-nombre-componente',
@@ -9,8 +10,9 @@ export class NombreComponenteComponent implements OnInit {
 
   todos;
   todo;
+  dato : string;
 
-  constructor() {
+  constructor(public todoService : TodoService) {
     this.todos =[
       {text:"hacer la compra"},
       {text:"limpiar el coche"},
@@ -19,6 +21,8 @@ export class NombreComponenteComponent implements OnInit {
     this.todo = {
       text: ""
     };
+
+    this.dato = todoService.getDato();
    }
 
   ngOnInit(): void {

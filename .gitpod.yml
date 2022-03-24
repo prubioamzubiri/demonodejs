@@ -4,10 +4,11 @@
 
 tasks:
   - init: npm install
-  - init: sudo apt update
-  - init: sudo apt -y upgrade
-  - init: npm install -y @angular/cli
-  - init: npm install --global typescript
-  - init: npm link @angular/cli
+  - command: sudo apt update
+  - command: sudo apt -y upgrade
+  - command: sudo apt install nodejs
+  - command: npm install -y @angular/cli
+  - command: npm install --global typescript
+  - command: npm link @angular/cli
 
 
